@@ -45,7 +45,8 @@ sb.setCharAt(0, 'H');
 sb.append(" world");
 String result = sb.toString();  // Result: "Hello world"
 ```
-
+---
+---
 ## **_C_**
 
 ### **Character Indexing**
