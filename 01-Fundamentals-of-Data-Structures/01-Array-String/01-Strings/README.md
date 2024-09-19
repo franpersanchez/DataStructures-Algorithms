@@ -195,3 +195,12 @@ s[0]
 ### Which One to Use?
 * Use char *s = "hello"; when you don't need to modify the string and want to conserve memory by pointing to a string literal.
 * Use char s[] = "hello"; when you need to modify the string or ensure it’s stored in writable memory.
+
+## Java Vs C
+Resumen de las Diferencias
+ _ | Java char | C char
+--------|-----------|-------
+Tamaño | 2 bytes (16 bits) | 1 byte (8 bits)
+Codificación | UTF-16 | ASCII o UTF-8 (si se usa manualmente)
+Rango | Soporta directamente Unicode | Soporta ASCII (o UTF-8 con strings)
+Uso | Diseñado para lenguajes internacionales y Unicode | Optimizado para lenguajes basados en ASCII
