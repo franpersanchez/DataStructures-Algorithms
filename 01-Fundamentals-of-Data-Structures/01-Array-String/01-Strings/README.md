@@ -205,3 +205,6 @@ Tamaño | 2 bytes (16 bits) | 1 byte (8 bits)
 Codificación | UTF-16 | ASCII o UTF-8 (si se usa manualmente)
 Rango | Soporta directamente Unicode | Soporta ASCII (o UTF-8 con strings)
 Uso | Diseñado para lenguajes internacionales y Unicode | Optimizado para lenguajes basados en ASCII
+
+## ASCII vs Unicode
+- [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
