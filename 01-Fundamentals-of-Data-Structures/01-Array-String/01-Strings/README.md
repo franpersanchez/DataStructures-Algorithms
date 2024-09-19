@@ -1,6 +1,6 @@
 # **STRINGS**
 
-## **_JAVA_**
+# **_JAVA_**
 
 ### **Character Indexing**
 
@@ -47,7 +47,8 @@ String result = sb.toString();  // Result: "Hello world"
 ```
 ---
 ---
-## **_C_**
+
+# **_C_**
 
 ### **Character Indexing**
 In C, strings are arrays of characters, and each character in the string occupies 1 byte (8 bits) of memory. When you declare a string, memory is allocated to store each character in the array, plus one extra byte for the null terminator ('\0'), which signifies the end of the string.
